@@ -56,7 +56,7 @@ public class welcome extends JFrame{
 				//System.out.print(ns+"\n");
 				if (ns.equals("*")==false)
 				{
-					v[i]=graph.insertVertex(parent, null, m.mVexs[i], 500+Math.sqrt(i)*f, 30*i,80, 30,"shape=ellipse;perimeter=ellipsePerimeter");
+					v[i]=graph.insertVertex(parent, null, m.mVexs[i], 500+Math.sqrt(i)*f, 20*i,80, 30,"shape=ellipse;perimeter=ellipsePerimeter");
 				
 				}
 				else
