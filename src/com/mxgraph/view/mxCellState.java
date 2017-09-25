@@ -19,7 +19,7 @@ public class mxCellState extends mxRectangle
 	 * 
 	 */
 	private static final long serialVersionUID = 7588335615324083354L;
-
+	private int MDF;
 	/**
 	 * Reference to the enclosing graph view.
 	 */
