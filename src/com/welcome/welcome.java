@@ -61,7 +61,7 @@ public class welcome extends JFrame{
 				}
 				else
 				{
-					v[i]=graph.insertVertex(parent, null, m.mVexs[i], 500+Math.sqrt(i)*f, 30*i,80, 30,"shape=ellipse;strokeColor=red;fillColor=green");
+					v[i]=graph.insertVertex(parent, null, m.mVexs[i], 500+Math.sqrt(i)*f, 20*i,80, 30,"shape=ellipse;strokeColor=red;fillColor=green");
 				}
 				f=-f;
 				k=k+0.05;
