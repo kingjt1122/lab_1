@@ -12,6 +12,7 @@ import com.mxgraph.costfunction.mxDoubleValCostFunction;
 import com.mxgraph.model.mxIGraphModel;
 import com.mxgraph.view.mxGraph;
 
+say hello!!
 /**
  * Implements a collection of utility methods abstracting the graph structure
  * taking into account graph properties such as visible/non-visible traversal
