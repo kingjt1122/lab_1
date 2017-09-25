@@ -124,7 +124,9 @@ public class welcome extends JFrame{
 		
 		String choice="0";
 		
+
 		System.out.println("CHOICES: 1:show the Graph.  2:search bridge words.  3:build new text.  4:shortest path.  5:random walk\n");
+
 		choice=sc.nextLine();
 		if(choice.equals("1")){
 			showDirectedGraph(mtx);
