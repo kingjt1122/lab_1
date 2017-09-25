@@ -28,7 +28,7 @@ class MatrixDG {
     	}
     }
     int vlen=0;
-    
+    int m=0;
     
 }
 public class welcome extends JFrame{
@@ -124,7 +124,7 @@ public class welcome extends JFrame{
 		
 		String choice="0";
 		
-		System.out.println("1:show the Graph.  2:search bridge words.  3:build new text.  4:shortest path.  5:random walk\n");
+		System.out.println("c: 1:show the Graph.  2:search bridge words.  3:build new text.  4:shortest path.  5:random walk\n");
 		choice=sc.nextLine();
 		if(choice.equals("1")){
 			showDirectedGraph(mtx);
